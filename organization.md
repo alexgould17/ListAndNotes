@@ -9,9 +9,9 @@ Attributes:
 ### `ListItem`
 For use with single items.<br/><br/>
 Attributes:
-- `_completion_status` - enumerated "Completed", "Incomplete", "Partially Complete", "In Progress", "On the backburner", "Abandoned". Should have designated setter method.
+- `_completion_status` - Enum "Completed", "Incomplete", "Partially Complete", "In Progress", "On the backburner", "Abandoned". Should have designated setter method.
 - `is_time_sensitive` - boolean, self-explanatory.
-- `_recurrance` - enumerated
+- `_recurrance` - Enum
 - `recurrance_interval` - int, number of seconds in between occurrences of a recurring item. Default is -1 for non-recurring items.
 
 ### `Project`
