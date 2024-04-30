@@ -5,7 +5,11 @@ The container where `ListItem`s are stored.<br/><br/>
 Attributes:
 - `_persistent` - boolean, does the list stay around when it is empty, or get archived/deleted?
 - `display_name` - The user-defined name for display.
-- `_items` - array of `ListItem`s that are on this list.
+- `_items` - array of `ListItem`s that are on this list.<br/>
+Methods:
+- `add` - add a `ListItem` (required param: the `ListItem` to be added, optional param: index to be added at)
+- `remove` - remove a `ListItem` (required param: the `ListItem` to be removed)
+- 
 ### `ListItem`
 For use with single items.<br/><br/>
 Attributes:
